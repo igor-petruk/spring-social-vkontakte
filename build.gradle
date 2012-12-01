@@ -155,7 +155,7 @@ project('spring-social-vkontakte') {
 // Configuration for the docs subproject
 // -----------------------------------------------------------------------------
 project('docs') {
-    apply from: "$buildSrcDir/docs.gradle"
+  //  apply from: "$buildSrcDir/docs.gradle"
 }
 
 apply from: "$buildSrcDir/dist.gradle"
