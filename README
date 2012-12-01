@@ -3,7 +3,7 @@ To check out the project and build from source, do the following:
 
  git clone --recursive git://github.com/vkolodrevskiy/spring-social-vkontakte.git
  cd spring-social-vkontakte
- ./gradlew install -X test
+ ./gradlew install -x test
 
 Note: the --recursive switch above is important, as spring-social uses
 git submodules, which must themselves be cloned and initialized. If --recursive
